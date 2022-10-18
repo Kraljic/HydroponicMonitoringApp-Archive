@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="TextView_Default">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextView_Value" parent="TextView_Default">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextView_Error" parent="TextView_Default">
+        <item name="android:textColor">@color/textColor_Error</item>
+    </style>
+
+    <style name="EditText_Default">
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Button_Default">
+        <item name="android:textSize">20sp</item>
+        <item name="android:colorBackground">@color/buttonColor_Default</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingHorizontal">30dp</item>
+        <item name="android:paddingVertical">15dp</item>
+    </style>
+
+    <!--<style name="Button_Green" parent="Button_Default">-->
+        <!--<item name="android:colorBackground">@color/buttonColor_Green</item>-->
+    <!--</style>-->
+
+</resources>
